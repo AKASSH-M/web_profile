@@ -1,0 +1,232 @@
+html {
+    scroll-behavior: smooth;
+  }
+  html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #00ff88;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    position: relative;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero h2 {
+    color: #00ff88;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    color: #ccc;
+    font-size: 1.1rem;
+  }
+
+  .contact-btn {
+    margin-top: 2rem;
+    background-color: #00d26a;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .contact-btn:hover {
+    background-color: #00ff88;
+    transform: scale(1.05);
+  }
+
+  .social-icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .social-icons a {
+    color: #69e6ad;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+  }
+
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #0bfb8f;
+    animation: float 2s infinite ease-out;
+  }
+
+  .floating-icon {
+    transition: top 2s ease-in-out, left 2s ease-in-out;
+    position: fixed;
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  .floating-icon.react { top: 10%; right: 10%; }
+  .floating-icon.java { top: 30%; left: 15%; }
+  .floating-icon.python { top: 60%; right: 5%; }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+
+  section {
+    padding: 4rem 2rem;
+  }
+
+  #home, #about, #skills, #links, #contact {
+    text-align: center;
+  }
+
+  #about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 3px solid #00ff88;
+  }
+
+  #about h2, #skills h2, #links h2, #contact h2 {
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 1rem;
+  }
+
+  #about p, #skills p, #links p, #contact p {
+    max-width: 600px;
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: auto;
+  }
+
+  .skill-category {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .skill-category h3 {
+    color: #00ff88;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .skill-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+    background: #111;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .skill-icons img,
+  .skill-icons i {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    filter: brightness(1) ; /* White icons on dark background */
+    transition: transform 0.3s;
+  }
+
+  
+
+
+  .contact-info a {
+    color: #69e6ad;
+    display: block;
+    margin: 0.5rem 0;
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    color: #00ff88;
+  }
+
+
+  #scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00ff40;
+    color: white;
+    border: none;
+    border-radius: 300px;
+    padding: 9px 14px 0px 14px; 
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    z-index: 1000;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #ffffff;
+    color:  #00ff40;
+  }
+  

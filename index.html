@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akassh M | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="image/profile_pic.jpeg" alt="profile_pic" />
+      AKASSH M 
+    </div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>|
+      <a href="#about">About</a>|
+      <a href="#skills">Skills</a>|
+      <a href="#links">Links</a>|
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <p>Hello I'm</p>
+    <h1>AKASSH M</h1>
+    <h2>Developer | Programmer | Learner</h2>
+    <p>1st-year student pursuing B.Tech in AI & DS</p>
+    <button class="contact-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact</button>
+
+    <!-- Floating Icons -->
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" class="floating-icon react" alt="React Logo" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" class="floating-icon java" alt="Java Logo" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" class="floating-icon python" alt="Python Logo" />
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <a href="https://leetcode.com/u/AKASSH_M/"><img src="image/avatar_1726653702.png" alt="Akassh M" /></a>
+    <h2>About Me</h2>
+    <p>
+      I'm Akassh M, a passionate competitive programmer. I love turning complex problems into elegant solutions through clean code and intuitive design. I'm currently pursuing B.Tech in Artificial Intelligence & Data Science at CIT Chennai.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Here are the technologies and tools I'm proficient in:</p>
+
+    <!-- Core Skills -->
+    <div class="skill-category">
+      <h3>Core Skills</h3>
+      <div class="skill-icons">
+        <h3 style="color: white;">DSA</h3>
+      </div>
+    </div>
+
+    <!-- Languages -->
+    <div class="skill-category">
+      <h3>Languages</h3>
+      <div class="skill-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" title="C" />
+      </div>
+    </div>
+
+    <!-- Web Technology -->
+    <div class="skill-category">
+      <h3>Web Technology</h3>
+      <div class="skill-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" title="HTML5"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+          
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- Links Section -->
+  <section id="links">
+    <h2>Links</h2>
+    <p>Connect with me through the following platforms:</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/akassh-m" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/akassh-m" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/akassh_m_07" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <a href="mailto:m.akassh07@gmail.com">📧 m.akassh07@gmail.com</a>
+      <a href="tel:+919789744339">📱 9789744339</a>
+      <a href="https://linkedin.com/in/akassh-m" target="_blank">🔗 LinkedIn Profile</a>
+    </div>
+  </section>
+  <button id="scrollToTopBtn" title="Go to top">^</button>
+
+
+  <!-- Floating Icon Animation Script -->
+  <script src="script.js"></script>
+</body>
+</html>
