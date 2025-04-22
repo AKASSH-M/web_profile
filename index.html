@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Akassh M | Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
   <link rel="stylesheet" href="style.css">
@@ -29,11 +29,11 @@
 
   <!-- Hero Section -->
   <section class="hero" id="home">
-    <p>Hello I'm</p>
-    <h1>AKASSH M</h1>
-    <h2>Developer | Programmer | Learner</h2>
-    <p>1st-year student pursuing B.Tech in AI & DS</p>
-    <button class="contact-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact</button>
+    <p data-aos="fade-right">Hello I'm</p>
+    <h1 data-aos="fade-left">AKASSH M</h1>
+    <h2 data-aos="fade-right">Developer | Programmer | Learner</h2>
+    <p data-aos="fade-left">1st-year student pursuing B.Tech in AI & DS</p>
+    <button data-aos="fade-right" class="contact-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact</button>
 
     <!-- Floating Icons -->
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" class="floating-icon react" alt="React Logo" />
@@ -43,17 +43,19 @@
 
   <!-- About Section -->
   <section id="about">
+    <div data-aos="fade-up">
     <a href="https://leetcode.com/u/AKASSH_M/"><img src="image/avatar_1726653702.png" alt="Akassh M" /></a>
     <h2>About Me</h2>
     <p>
       I'm Akassh M, a passionate competitive programmer. I love turning complex problems into elegant solutions through clean code and intuitive design. I'm currently pursuing B.Tech in Artificial Intelligence & Data Science at CIT Chennai.
     </p>
+    </div>
   </section>
 
   <!-- Skills Section -->
   <section id="skills">
-    <h2>Skills</h2>
-    <p>Here are the technologies and tools I'm proficient in:</p>
+    <h2 data-aos="fade-right">Skills</h2>
+    <p data-aos="fade-left">Here are the technologies and tools I'm proficient in:</p>
 
     <!-- Core Skills -->
     <div class="skill-category">
@@ -113,5 +115,7 @@
 
   <!-- Floating Icon Animation Script -->
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
