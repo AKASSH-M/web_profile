@@ -19,7 +19,6 @@ Features:
 - Projects section to showcase my work
 - Social Media Links (LinkedIn, GitHub, Instagram)
 - Contact section with email and phone information
-- Smooth scroll and responsive layout
 
 ---
 
