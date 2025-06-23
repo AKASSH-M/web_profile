@@ -2,115 +2,207 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Portfolio of Akassh M, a B.Tech AI & DS student and competitive programmer.">
-  <meta name="keywords" content="Akassh M, portfolio, developer, programmer, AI, Data Science">
-  <title>Akassh M | Portfolio</title>
-  <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKASSH M</title>
+  <link rel="icon" href="image/avatar_1726653702.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="image/profile_pic.jpeg" alt="Akassh M profile picture" />
-      AKASSH M
+  <nav role="navigation" aria-label="Main navigation">
+    <div>
+      <img src="image/profile_pic.jpeg" alt="Akassh M's profile picture">
+      <h1> <pre>AKASSH M</pre></h1>
     </div>
-    <button class="hamburger" aria-label="Toggle navigation">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#links">Links</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section class="hero" id="home">
-    <p data-aos="fade-right">Hello I'm</p>
-    <h1 data-aos="fade-left">AKASSH M</h1>
-    <h2 data-aos="fade-right">Developer | Programmer | Learner</h2>
-    <p data-aos="fade-left">1st-year student pursuing B.Tech in AI & DS</p>
-    <button data-aos="fade-right" class="contact-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact</button>
-
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" class="floating-icon react" alt="React Logo" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" class="floating-icon java" alt="Java Logo" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" class="floating-icon python" alt="Python Logo" />
-  </section>
-
-  <section id="about">
-    <div data-aos="fade-up" class="tilt-box" data-tilt data-tilt-max="15" data-tilt-speed="40">
-      <a href="https://leetcode.com/u/AKASSH_M/"><img src="image/avatar_1726653702.png" alt="Akassh M LeetCode avatar" /></a>
+    <div id="nav_cont">
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <h2 data-aos="fade-up">About Me</h2>
-    <p data-aos="fade-up">
-      I'm Akassh M, a passionate competitive programmer. I love turning complex problems into elegant solutions through clean code and intuitive design. I'm currently pursuing B.Tech in Artificial Intelligence & Data Science at CIT Chennai.
-    </p>
-  </section>
+  </nav>
 
-  <section id="skills">
-    <h2 data-aos="fade-right">Skills</h2>
-    <p data-aos="fade-left">Here are the technologies and tools I'm proficient in:</p>
-
-    <div class="skill-category">
-      <h3>Core Skills</h3>
-      <div class="skill-icons" data-aos="fade-up">
-        <h4 style="color: white; padding: 3px;">DSA</h4>
+  <main>
+    <section id="hero">
+      <div class="tooltip-container">
+        <span class="tooltip">Akassh</span>
+        <span class="text">👋</span>
+        <span>Hello! 👋</span>
       </div>
-    </div>
-
-    <div class="skill-category">
-      <h3>Languages</h3>
-      <div class="skill-icons" data-aos="fade-right">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" title="C" />
+      <h2>Welcome to My Portfolio</h2>
+      <p>Explore my work and passion for eco-inspired design.</p>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Akassh M, a passionate competitive programmer. I love turning complex problems into elegant solutions through clean code and intuitive design. I'm currently pursuing B.Tech in Artificial Intelligence & Data Science at CIT Chennai.</p>
+      <div id="ani">
+        <div class="bar">
+            <div class="ball"></div>
+        </div>
       </div>
-    </div>
-
-    <div class="skill-category">
-      <h3>Web Technology</h3>
-      <div class="skill-icons" data-aos="fade-left">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS3" title="CSS3" />
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>Check out my latest projects showcasing innovative ideas.</p>
+      <div class="card_container">
+        <div class="card">
+          <p class="heading">Ai-powered Resume</p>
+          <p>An intelligent web platform that analyzes resumes using Machine Learning & NLP
+           Automatically extracts skills, matches job fit, and provides feedback — empowering both candidates and recruiters.</p>
+          <p style="margin-top: 8px;"><a href="https://github.com/AKASSH-M/AI-Powered-Resume">view</a></p>
+        </div>
+        <div class="card" id="platform">
+          <p class="heading">My Platforms</p>
+          <div class="platforms">
+            <a href="https://leetcode.com/u/AKASSH_M/" target="_blank" title="LeetCode">
+              <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Logo" />
+            </a>
+            <a href="https://github.com/akassh-m" target="_blank" title="GitHub">
+              <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Logo" />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <section id="links">
-    <h2>Links</h2>
-    <p>Connect with me through the following platforms:</p>
-    <div class="social-icons">
-      <a href="https://linkedin.com/in/akassh-m" target="_blank"><i class="fab fa-linkedin" data-aos="fade-right"></i></a>
-      <a href="https://github.com/akassh-m" target="_blank"><i class="fab fa-github" data-aos="fade-up"></i></a>
-      <a href="https://instagram.com/akassh_m_07" target="_blank"><i class="fab fa-instagram" data-aos="fade-left"></i></a>
-    </div>
-  </section>
+         
+    </section>
+    <section id="cards">
+      <div class="container">
+        <div data-text="Learn" style="--r:-15;" class="glass">
+          <svg viewBox="0 0 496 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+            ></path>
+          </svg>
+        </div>
+        <div data-text="then" style="--r:5;" class="glass">
+          <svg viewBox="0 0 640 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+            ></path>
+          </svg>
+        </div>
+        <div data-text="Earn" style="--r:25;" class="glass">
+          <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm64 320H64V320c35.3 0 64 28.7 64 64zM64 192V128h64c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64v64H448zm64-192c-35.3 0-64-28.7-64-64h64v64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+            ></path>
+          </svg>
+        </div>
+      </div>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-info">
-      <a href="mailto:m.akassh07@gmail.com" aria-label="Email Akassh M">📧 m.akassh07@gmail.com</a>
-      <a href="tel:+919789744339" aria-label="Call Akassh M">📱 9789744339</a>
-      <a href="https://linkedin.com/in/akassh-m" target="_blank" aria-label="View Akassh M's LinkedIn Profile">🔗 LinkedIn Profile</a>
-    </div>
-  </section>
+    </section>
+    <section id="skill">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Core - DSA</h3>
+          <img src="https://cdn-icons-png.flaticon.com/512/10073/10073415.png" alt="DSA Icon" />
+        </div>
+        <div>
+          <h3>Languages</h3>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" />
+        </div>
+        <div>
+          <h3>Web Tech</h3>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Connect with me through these platforms</h2>
+      <div id="con">
+        <!-- From Uiverse.io by vikas7754 --> 
+        <div class="ltool_lintip-container">
+          <div class="ltool_lintip">
+            <div class="lprofile">
+              <div class="luser">
+                <!-- <div class="img">AK</div> -->
+                <div class="ldetails">
+                  <div class="lname">AKASSH M</div>
+                  <div class="lusername">@akassh_m</div>
+                </div>
+              </div>
+              <div class="labout">500+ Connections</div>
+            </div>
+          </div>
+          <div class="ltext">
+            <a class="licon" href="https://linkedin.com/in/akassh-m">
+              <div class="llayer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="lfab fa-linkedin">
+                  <svg viewBox="0 0 448 512" height="1em">
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="ltext">LinkedIn</div>
+            </a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="intool_instatip-container">
+          <div class="intool_instatip">
+            <div class="inprofile">
+              <div class="inuser">
+                <!-- <div class="inimg">Ui</div> -->
+                <div class="indetails">
+                  <div class="inname">Akassh</div>
+                  <div class="inusername">@akassh_m_07</div>
+                </div>
+              </div>
+              <div class="inabout">50+ Followers</div>
+            </div>
+          </div>
+          <div class="intext">
+            <a class="inicon" href="https://instagram.com/akassh_m_07">
+              <div class="inlayer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="ininstagramSVG">
+                  <svg
+                    fill="white"
+                    class="insvgIcon"
+                    viewBox="0 0 448 512"
+                    height="1.5em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="intext">Instagram</div>
+            </a>
+          </div>
+        </div>
 
-  <button id="scrollToTopBtn" title="Go to top">^</button>
-  <button id="toggle_theme" title="Toggle Theme">🌙</button>
+        </div>
 
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
-  <script>AOS.init();</script>
+      </div>
+    </section>
+  </main>
+
+  <footer >
+    <p>© 2025 Akassh M | <a href="mailto:m.akassh07@gmail.com">m.akassh07@gmail.com</a></p>
+  </footer>
+  
 </body>
 </html>
