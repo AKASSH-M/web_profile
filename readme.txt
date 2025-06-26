@@ -1,47 +1,71 @@
-Project: Personal Portfolio Website  
-Author: Akassh M  
-Repository: https://github.com/AKASSH-M/web_profile
+# 🌐 Portfolio Website – Akassh M
+
+This is my personal **portfolio website** built using **HTML** and **CSS**.
+
+## 🔗 Live Demo
+👉 [Visit Portfolio](https://akassh-m.github.io/web_profile/)
 
 ---
 
-Description:
-------------
-This is my personal portfolio website built using HTML, CSS, and JavaScript.  
-It showcases my skills, projects, and contact information.  
-The site is fully responsive and designed to highlight my professional profile online.
+## 🎯 Purpose
+
+- Showcase my **projects**, **skills**, and **experience**
+- Central hub for recruiters and collaborators to reach out
+- Reflect my interests in **web development** and **competitive programming**
 
 ---
 
-Features:
----------
-- About Me section with image and background
-- Skills section with icons for Java, Python, C++, JavaScript, and more
-- Projects section to showcase my work
-- Social Media Links (LinkedIn, GitHub, Instagram)
-- Contact section with email and phone information
+## ✨ Features
+
+- Responsive and clean design
+- Sections: `Home`, `About`, `Skills`, `Projects`, `Contact`
+- Smooth navigation
+- Custom CSS styling
 
 ---
 
-How to Use:
------------
-1. Clone the repository:
-   git clone https://github.com/AKASSH-M/web_profile.git
+## 🛠️ Built With
 
-2. Navigate to the project folder:
-   cd web_profile
-
-3. Open `index.html` in your browser to view the portfolio.
+- HTML5
+- CSS3
+- Google Fonts
+- Basic image and icon assets
 
 ---
 
-License:
---------
-This project is open source and available under the MIT License.
+## 📂 Folder Structure
+
+```
+.
+├── index.html         # Main HTML file
+├── style.css          # CSS file
+├── images/            # Profile and project images
+└── README.md          # This file
+```
 
 ---
 
-Contact:
---------
-- Email: m.akassh07@gmail.com
-- LinkedIn: https://www.linkedin.com/in/akassh-m/
-- Instagram: https://www.instagram.com/akassh_m_07/
+## 🚀 Getting Started
+
+To use this site locally:
+
+```bash
+git clone https://github.com/your-username/web_profile.git
+cd web_profile
+open index.html
+```
+
+---
+
+## 📬 Contact Me
+
+- Email: [m.akassh07@gmail.com](mailto:m.akassh07@gmail.com)
+- LinkedIn: [linkedin.com/in/akassh-m](https://www.linkedin.com/in/akassh-m/)
+- LeetCode: [AKASSH-M](https://leetcode.com/AKASSH-M/)
+- Instagram: [@akassh_m_07](https://www.instagram.com/akassh_m_07/)
+
+---
+
+## 📄 License
+
+This project is open source under the [MIT License](LICENSE).
