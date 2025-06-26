@@ -61,7 +61,7 @@ open index.html
 
 - Email: [m.akassh07@gmail.com](mailto:m.akassh07@gmail.com)
 - LinkedIn: [linkedin.com/in/akassh-m](https://www.linkedin.com/in/akassh-m/)
-- LeetCode: [AKASSH-M](https://leetcode.com/AKASSH-M/)
+- LeetCode: [AKASSH_M](https://leetcode.com/AKASSH_M/)
 - Instagram: [@akassh_m_07](https://www.instagram.com/akassh_m_07/)
 
 ---
